@@ -1,0 +1,80 @@
+*{
+	font-size: 1.1em;
+}
+
+header {
+	background-color: #2c3e50;
+	margin-bottom: 0;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin: 0;
+	margin-left: 2%;
+}
+
+i {
+	padding-left: 1%;
+}
+
+article {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+blockquote {
+	margin: 30px 0;
+}
+
+ol li p {
+	font-size: 1em;
+}
+
+span {
+	font-weight: bold;
+	color: #000;
+}
+
+.alert {
+	color: #000;
+}
+
+.alert-danger {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+ol li {
+	margin-bottom: 25px;
+}
+
+ol {
+	margin-top: 30px;
+	margin-bottom:  30px;
+}
+
+
+@media (max-width: 960px){
+	article {
+		width: 70%;
+	}
+
+	.jumbotron {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media (max-width: 750px){
+	article {
+		width: 90%
+	}
+}
